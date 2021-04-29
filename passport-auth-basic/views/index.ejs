@@ -7,6 +7,9 @@
     <title>Login || Welcome to Banky</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <h1>Hello <% user.name %> </h1>
+    <form action="/logout?_method=DELETE" method="POST">
+    <button type="submit">Log Out</button>
+</form>
 </body>
 </html>
